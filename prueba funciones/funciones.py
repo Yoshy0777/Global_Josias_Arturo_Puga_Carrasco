@@ -1,4 +1,5 @@
 from Funcion_PDF import *
+from Datos_estaticos import *
 listaNombres = []
 listaEdades = []
 
@@ -17,6 +18,8 @@ def menu():
             imprimirDatos()
         elif (opcion==3):
             GenerarPDF()
+        elif (opcion==5):
+            listarProductos()
 
 
 
